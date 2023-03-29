@@ -9,17 +9,19 @@
 <body>
 <div class="container">
     <div class="container m-3">
-        <input type="text" placeholder="введите сумму" class="p-2 input">
-        <!--        <select name="" id="convert" class="p-2">-->
-        <!--            <option value="usd">USD</option>-->
-        <!--            <option value="eur">EUR</option>-->
-        <!--        </select>-->
+        <input type="number" placeholder="enter sum" class="p-2 input">
+        <select name="" id="convert" class="p-2 m-3">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="KGS">KGS</option>
+        </select>
+        <button class="btn btn-dark">convert</button>
         <div class="result mt-1">
         
         </div>
     </div>
     
-    <div class="container">
+    <div class="container mt-5">
         <label for="continents">Выберите континент:</label>
         <select id="continents">
             <option value="all">Все континенты</option>
